@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace baseobject
 {
-    class Triangle : Shape
+    class Triangle : IShape
     {
-        public Triangle(int width, int height) : base(width, height)
+        public Triangle(int width, int height)
         {
         }
         public int Area()
