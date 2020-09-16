@@ -10,6 +10,7 @@ namespace baseobject
     {
         static void Main(string[] args)
         {
+            // fuckd
             Console.WriteLine("Skriv en höjd");
             int höjd = int.Parse(Console.ReadLine());
             Console.WriteLine("Din höjd är " + höjd);
